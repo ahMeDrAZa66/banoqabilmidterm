@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serief;
+}
+ .contact{
+    min-height: 100vh;
+    background-color: gold;
+    padding:50px;
+    text-align: centre;
+ }
+ .contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+ }
