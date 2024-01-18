@@ -1,0 +1,274 @@
+/* *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serief;
+}
+ .contact{
+    min-height: 100vh;
+    background-color: gold;
+    padding:50px;
+    text-align: centre;
+ }
+ .contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+ } */
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+   width: 0;
+}
+
+/* header */
+
+header {
+   width: 100%;
+   height: 100vh;
+   background-image: url(./images/banner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.top {
+   display: flex;
+   width: 100%;
+   height: 5vh;
+   align-items: center;
+   background-color: rgb(211, 205, 195);
+   justify-content: space-between;
+
+}
+
+.top h4 {
+   margin-left: 20px;
+   color: white;
+   text-transform: uppercase;
+}
+
+.top p {
+   margin-right: 20px;
+
+}
+
+.top a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+/*Navigation*/
+
+nav {
+   width: 100%;
+   height: 10vh;
+   display: flex;
+   background-color: white;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   color: black;
+   font-weight: bold;
+}
+
+nav .logo {
+   width: 25%;
+   text-align: center;
+}
+
+nav .logo img {
+   width: 70%;
+   text-align: center;
+   margin-top: 20px;
+}
+
+nav .menu {
+   width: 40%;
+}
+
+nav .menu ul {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+
+nav .menu ul a {
+   text-decoration: none;
+   color: black;
+}
+
+nav .menu ul a:hover {
+   color: red;
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.btn button {
+   border-radius: 100px;
+   color: white;
+   background-color: orange;
+   width: 130px;
+   height: 30px;
+   box-shadow: 2px 3px 2px grey;
+   font-size: 13px;
+   margin-right: 20px;
+}
+
+.btn button:hover {
+   background-color: red;
+   color: black;
+
+}
+
+.content {
+   width: 100%;
+   height: 50vh;
+   margin-top: 250px;
+   justify-content: center center;
+   text-align: center;
+   font-size: 30px;
+   color: white;
+}
+
+.content button {
+   border-radius: 30px;
+   background-color: rgb(14, 207, 241);
+   color: black;
+   font-weight: bold;
+   width: 180px;
+   height: 30px;
+   margin-top: 20px;
+}
+
+.content button:hover {
+   background-color: blue;
+   color: white;
+   
+   
+   .content button {
+       border-radius: 30px;
+       background-color: rgb(14, 207, 241);
+       color: black;
+       font-weight: bold;
+       width: 180px;
+       height: 30px;
+       margin-top: 20px;
+   }
+   
+   .content button:hover {
+       background-color: blue;
+       color: white;
+   
+   }
+
+}
+
+
+
+
+
+.footer {
+   text-align: center;
+   margin-top: 50px;
+   display: flex;
+   background-color: black;
+   align-items: center center ;
+   justify-content: space-between;
+   
+
+}
+
+.foot1 {
+   width: 250px;
+   height: fit-content;
+   margin-top: 20px;
+   margin-left: 40px;
+}
+
+.foot1 img {
+   width: 250px;
+   margin-bottom: 30px;
+}
+
+.foot2 {
+   width: 250px;
+   margin-top: 80px;
+   color: white;
+   
+}
+
+.foot2 p a {
+
+   color: white;
+   margin-top: 0;
+
+}
+
+.foot3 {
+   width: 250px;
+   color: white;
+   margin-top: 80px;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 80px;
+}
+
+.foot3 ul li {
+   list-style: none;
+}
+
+.foot3 ul li a {
+
+   text-decoration: none;
+   color: red;
+}
+.copyright{
+   text-align: center;
+   background-color: gray;
+   font-weight: bold;
+   color: white;
+   text-transform: capitalize;
+}
+
+
+
+
+.form99{
+   text-align: center;
+   margin-top: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form99 h1{
+   margin-bottom: 50px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 5vh;
+   color: rgb(99, 207, 246);
+   text-decoration-line: underline;
+}
+.form77{
+   text-align: center;
+   text-decoration: wavy;
+   
+}
+.form77 button{
+   color: brown;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 3vh;
+   
+}
+
+
+
+
+
+
+
+
+
+
